@@ -1,0 +1,12 @@
+read -p "Introduce el primer numero: " x
+read -p "Introduce el segundo numero: " y
+
+if [ $x -ge $y ]; then
+    echo "x es mayor que y"
+else
+    if [ $x -eq  $y ]; then
+	echo "y es igual que x"
+    else
+	echo "y es mayor que x"
+    fi
+fi
